@@ -1,6 +1,24 @@
+/* ------------------------------
+   Correctif iPhone : hauteur réelle du viewport
+--------------------------------*/
+
+function updateViewportHeight() {
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+// Mise à jour initiale + événements iOS
+updateViewportHeight();
+window.addEventListener('resize', updateViewportHeight);
+window.addEventListener('orientationchange', updateViewportHeight);
+
+/* ------------------------------
+   Variables globales
+--------------------------------*/
+
 let manifest = [];
-let allCards = [];   // cards matching current selection (deck + type)
-let queue = [];      // shuffled remaining cards
+let allCards = [];
+let queue = [];
 let correctCount = 0;
 let totalCount = 0;
 let isFlipped = false;
@@ -13,6 +31,10 @@ const TYPE_COLORS = {
   mot:      '#8b5cf6'
 };
 
+/* ------------------------------
+   Initialisation
+--------------------------------*/
+
 async function init() {
   try {
     const res = await fetch('data/manifest.json');
@@ -23,6 +45,10 @@ async function init() {
     setError('Impossible de charger les données. Servez le site via HTTP.');
   }
 }
+
+/* ------------------------------
+   Sélecteurs
+--------------------------------*/
 
 function buildDeckSelect() {
   const sel = document.getElementById('deck-select');
@@ -61,7 +87,14 @@ async function loadAndStart() {
 
   allCards = cards;
   startSession(cards);
+
+  // Correction iPhone : recalcul après chargement
+  updateViewportHeight();
 }
+
+/* ------------------------------
+   Session
+--------------------------------*/
 
 function startSession(cards) {
   if (cards.length === 0) {
@@ -81,6 +114,9 @@ function startSession(cards) {
 
   updateScoreDisplay(0, cards.length, cards.length);
   showCard(queue[0]);
+
+  // Correction iPhone : recalcul après reset
+  updateViewportHeight();
 }
 
 function shuffle(arr) {
@@ -91,14 +127,16 @@ function shuffle(arr) {
   return arr;
 }
 
+/* ------------------------------
+   Affichage des cartes
+--------------------------------*/
+
 function showCard(card) {
   const cardEl = document.getElementById('card');
 
-  // Snap back to front instantly (no animation) to avoid showing the next
-  // card's translation during the flip-back animation
   cardEl.style.transition = 'none';
   cardEl.classList.remove('flipped');
-  void cardEl.offsetHeight; // flush style so the snap is applied immediately
+  void cardEl.offsetHeight;
   cardEl.style.transition = '';
 
   isFlipped = false;
@@ -123,6 +161,9 @@ function showCard(card) {
   } else {
     ctxEl.classList.add('hidden');
   }
+
+  // Correction iPhone : recalcul après affichage
+  updateViewportHeight();
 }
 
 function flip() {
@@ -132,7 +173,14 @@ function flip() {
   setTimeout(() => {
     document.getElementById('answer-btns').classList.remove('hidden');
   }, 280);
+
+  // Correction iPhone : recalcul après flip
+  updateViewportHeight();
 }
+
+/* ------------------------------
+   Réponses
+--------------------------------*/
 
 function markCorrect() {
   if (!isFlipped || queue.length === 0) return;
@@ -165,11 +213,22 @@ function updateScoreDisplay(correct, remaining, total) {
   document.getElementById('progress-fill').style.width = pct + '%';
 }
 
+/* ------------------------------
+   Fin de session
+--------------------------------*/
+
 function showCompletion() {
   document.getElementById('card').classList.add('hidden');
   document.getElementById('answer-btns').classList.add('hidden');
   document.getElementById('completion').classList.remove('hidden');
+
+  // Correction iPhone : recalcul après écran final
+  updateViewportHeight();
 }
+
+/* ------------------------------
+   Contexte
+--------------------------------*/
 
 function toggleContext() {
   showContext = document.getElementById('show-context').checked;
@@ -180,10 +239,18 @@ function toggleContext() {
   }
 }
 
+/* ------------------------------
+   Erreur
+--------------------------------*/
+
 function setError(msg) {
   document.getElementById('word-nl').textContent = msg;
   document.getElementById('word-fr').textContent = '';
 }
+
+/* ------------------------------
+   Événements
+--------------------------------*/
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('card').addEventListener('click', flip);
@@ -195,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('restart-btn').addEventListener('click', () => startSession(allCards));
 
   document.addEventListener('keydown', e => {
-    if (e.key === ' ')                         { e.preventDefault(); flip(); }
+    if (e.key === ' ') { e.preventDefault(); flip(); }
     else if (e.key === 'ArrowRight' && isFlipped) markCorrect();
     else if (e.key === 'ArrowLeft'  && isFlipped) markIncorrect();
   });

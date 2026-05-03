@@ -19,14 +19,19 @@
   --red-hover: #ef4444;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
   --radius: 16px;
+
+  /* Correction iPhone */
+  --vh: 1vh;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background: var(--bg);
   color: var(--text-dark);
-  min-height: 100vh;
-  min-height: 100dvh;
+
+  /* Correction iPhone : remplace 100vh / 100dvh */
+  min-height: calc(var(--vh) * 100);
+
   padding-bottom: env(safe-area-inset-bottom);
   -webkit-text-size-adjust: 100%;
 }
@@ -66,7 +71,6 @@ header h1 {
   min-height: 36px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-  /* style native select on webkit */
   -webkit-appearance: none;
   appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='white' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
@@ -129,7 +133,10 @@ main {
 
 .card-area {
   width: 100%;
-  height: 300px;
+
+  /* Correction iPhone : hauteur dynamique */
+  height: calc(var(--vh) * 40);
+
   perspective: 1200px;
   position: relative;
 }
@@ -415,7 +422,7 @@ main {
   }
 
   .card-area {
-    height: 190px;
+    height: calc(var(--vh) * 55);
   }
 
   .word {
