@@ -1,0 +1,705 @@
+{
+  "title": "Vocabulaire Meeting",
+  "cards": [
+    {
+      "nl": "vergaderen",
+      "fr": "se réunir / tenir une réunion",
+      "type": "verbe",
+      "context_nl": "We vergaderen elke maandag om negen uur.",
+      "context_fr": "Nous nous réunissons chaque lundi à neuf heures."
+    },
+    {
+      "nl": "deelnemen",
+      "fr": "participer",
+      "type": "verbe",
+      "context_nl": "Vijf mensen nemen deel aan de vergadering.",
+      "context_fr": "Cinq personnes participent à la réunion."
+    },
+    {
+      "nl": "presenteren",
+      "fr": "présenter",
+      "type": "verbe",
+      "context_nl": "Hij presenteert de resultaten van het kwartaal.",
+      "context_fr": "Il présente les résultats du trimestre."
+    },
+    {
+      "nl": "beslissen",
+      "fr": "décider",
+      "type": "verbe",
+      "context_nl": "We moeten snel beslissen over het budget.",
+      "context_fr": "Nous devons décider rapidement du budget."
+    },
+    {
+      "nl": "voorstellen",
+      "fr": "proposer / présenter",
+      "type": "verbe",
+      "context_nl": "Ik stel een nieuwe aanpak voor.",
+      "context_fr": "Je propose une nouvelle approche."
+    },
+    {
+      "nl": "samenwerken",
+      "fr": "collaborer",
+      "type": "verbe",
+      "context_nl": "De twee teams werken goed samen.",
+      "context_fr": "Les deux équipes collaborent bien."
+    },
+    {
+      "nl": "bespreken",
+      "fr": "discuter / aborder",
+      "type": "verbe",
+      "context_nl": "We bespreken het probleem in de vergadering.",
+      "context_fr": "Nous discutons du problème en réunion."
+    },
+    {
+      "nl": "afspreken",
+      "fr": "convenir / fixer",
+      "type": "verbe",
+      "context_nl": "We spreken een nieuwe datum af.",
+      "context_fr": "Nous convenons d'une nouvelle date."
+    },
+    {
+      "nl": "beginnen",
+      "fr": "commencer",
+      "type": "verbe",
+      "context_nl": "De vergadering begint om twee uur.",
+      "context_fr": "La réunion commence à deux heures."
+    },
+    {
+      "nl": "eindigen",
+      "fr": "terminer / finir",
+      "type": "verbe",
+      "context_nl": "De presentatie eindigt om vijf uur.",
+      "context_fr": "La présentation se termine à cinq heures."
+    },
+    {
+      "nl": "luisteren",
+      "fr": "écouter",
+      "type": "verbe",
+      "context_nl": "Luister goed naar de uitleg.",
+      "context_fr": "Écoutez bien l'explication."
+    },
+    {
+      "nl": "spreken",
+      "fr": "parler / prendre la parole",
+      "type": "verbe",
+      "context_nl": "De manager spreekt als eerste.",
+      "context_fr": "Le manager prend la parole en premier."
+    },
+    {
+      "nl": "vragen",
+      "fr": "demander / poser une question",
+      "type": "verbe",
+      "context_nl": "Ik wil een vraag stellen over het plan.",
+      "context_fr": "Je voudrais poser une question sur le plan."
+    },
+    {
+      "nl": "antwoorden",
+      "fr": "répondre",
+      "type": "verbe",
+      "context_nl": "Zij antwoordt op alle vragen.",
+      "context_fr": "Elle répond à toutes les questions."
+    },
+    {
+      "nl": "uitleggen",
+      "fr": "expliquer",
+      "type": "verbe",
+      "context_nl": "Kun je dat punt nader uitleggen?",
+      "context_fr": "Pouvez-vous expliquer ce point plus en détail ?"
+    },
+    {
+      "nl": "plannen",
+      "fr": "planifier / prévoir",
+      "type": "verbe",
+      "context_nl": "We plannen de volgende vergadering voor dinsdag.",
+      "context_fr": "Nous planifions la prochaine réunion pour mardi."
+    },
+    {
+      "nl": "organiseren",
+      "fr": "organiser",
+      "type": "verbe",
+      "context_nl": "Wie organiseert de teamvergadering?",
+      "context_fr": "Qui organise la réunion d'équipe ?"
+    },
+    {
+      "nl": "sturen",
+      "fr": "envoyer",
+      "type": "verbe",
+      "context_nl": "Ik stuur de agenda voor de vergadering.",
+      "context_fr": "J'envoie l'ordre du jour pour la réunion."
+    },
+    {
+      "nl": "ontvangen",
+      "fr": "recevoir",
+      "type": "verbe",
+      "context_nl": "Heb je de uitnodiging ontvangen?",
+      "context_fr": "As-tu reçu l'invitation ?"
+    },
+    {
+      "nl": "bevestigen",
+      "fr": "confirmer",
+      "type": "verbe",
+      "context_nl": "Kun je je aanwezigheid bevestigen?",
+      "context_fr": "Pouvez-vous confirmer votre présence ?"
+    },
+    {
+      "nl": "annuleren",
+      "fr": "annuler",
+      "type": "verbe",
+      "context_nl": "De vergadering van morgen is geannuleerd.",
+      "context_fr": "La réunion de demain est annulée."
+    },
+    {
+      "nl": "verschuiven",
+      "fr": "reporter / décaler",
+      "type": "verbe",
+      "context_nl": "We verschuiven de vergadering naar vrijdag.",
+      "context_fr": "Nous reportons la réunion à vendredi."
+    },
+    {
+      "nl": "noteren",
+      "fr": "noter",
+      "type": "verbe",
+      "context_nl": "Noteer de belangrijkste beslissingen.",
+      "context_fr": "Notez les décisions les plus importantes."
+    },
+    {
+      "nl": "samenvatten",
+      "fr": "résumer",
+      "type": "verbe",
+      "context_nl": "Kun je de belangrijkste punten samenvatten?",
+      "context_fr": "Pouvez-vous résumer les points principaux ?"
+    },
+    {
+      "nl": "toevoegen",
+      "fr": "ajouter",
+      "type": "verbe",
+      "context_nl": "Ik wil een punt toevoegen aan de agenda.",
+      "context_fr": "Je voudrais ajouter un point à l'ordre du jour."
+    },
+    {
+      "nl": "weigeren",
+      "fr": "refuser",
+      "type": "verbe",
+      "context_nl": "Hij weigert het voorstel te accepteren.",
+      "context_fr": "Il refuse d'accepter la proposition."
+    },
+    {
+      "nl": "instemmen",
+      "fr": "approuver / consentir",
+      "type": "verbe",
+      "context_nl": "Iedereen stemt in met het plan.",
+      "context_fr": "Tout le monde approuve le plan."
+    },
+    {
+      "nl": "rapporteren",
+      "fr": "rendre compte / rapporter",
+      "type": "verbe",
+      "context_nl": "Ze rapporteert aan de directeur na de vergadering.",
+      "context_fr": "Elle rend compte au directeur après la réunion."
+    },
+    {
+      "nl": "informeren",
+      "fr": "informer",
+      "type": "verbe",
+      "context_nl": "Ik informeer het team over de nieuwe regels.",
+      "context_fr": "J'informe l'équipe des nouvelles règles."
+    },
+    {
+      "nl": "uitnodigen",
+      "fr": "inviter",
+      "type": "verbe",
+      "context_nl": "We nodigen alle collega's uit voor de presentatie.",
+      "context_fr": "Nous invitons tous les collègues à la présentation."
+    },
+    {
+      "nl": "verdelen",
+      "fr": "répartir / distribuer",
+      "type": "verbe",
+      "context_nl": "We verdelen de taken eerlijk.",
+      "context_fr": "Nous répartissons les tâches équitablement."
+    },
+    {
+      "nl": "controleren",
+      "fr": "vérifier / contrôler",
+      "type": "verbe",
+      "context_nl": "Controleer de notulen voor ze worden verstuurd.",
+      "context_fr": "Vérifiez le procès-verbal avant qu'il soit envoyé."
+    },
+    {
+      "nl": "evalueren",
+      "fr": "évaluer",
+      "type": "verbe",
+      "context_nl": "We evalueren het project aan het einde van het kwartaal.",
+      "context_fr": "Nous évaluons le projet à la fin du trimestre."
+    },
+    {
+      "nl": "verbeteren",
+      "fr": "améliorer",
+      "type": "verbe",
+      "context_nl": "Hoe kunnen we de vergaderingen verbeteren?",
+      "context_fr": "Comment pouvons-nous améliorer les réunions ?"
+    },
+    {
+      "nl": "doorgaan",
+      "fr": "continuer / poursuivre",
+      "type": "verbe",
+      "context_nl": "Gaan we door met het volgende punt?",
+      "context_fr": "Passons-nous au point suivant ?"
+    },
+    {
+      "nl": "onderbreken",
+      "fr": "interrompre",
+      "type": "verbe",
+      "context_nl": "Onderbreek de spreker niet.",
+      "context_fr": "N'interrompez pas l'orateur."
+    },
+    {
+      "nl": "opvolgen",
+      "fr": "faire le suivi",
+      "type": "verbe",
+      "context_nl": "Wie volgt de actiepunten op?",
+      "context_fr": "Qui assure le suivi des points d'action ?"
+    },
+    {
+      "nl": "bereiken",
+      "fr": "atteindre / obtenir",
+      "type": "verbe",
+      "context_nl": "We bereiken een akkoord na lang overleg.",
+      "context_fr": "Nous atteignons un accord après de longues discussions."
+    },
+    {
+      "nl": "inplannen",
+      "fr": "programmer / planifier",
+      "type": "verbe",
+      "context_nl": "Plan de vergadering in voor volgende week.",
+      "context_fr": "Planifiez la réunion pour la semaine prochaine."
+    },
+    {
+      "nl": "afronden",
+      "fr": "conclure / finaliser",
+      "type": "verbe",
+      "context_nl": "Laten we dit punt afronden.",
+      "context_fr": "Concluons ce point."
+    },
+    {
+      "nl": "aanwezig",
+      "fr": "présent",
+      "type": "adjectif",
+      "context_nl": "Alle teamleden zijn aanwezig.",
+      "context_fr": "Tous les membres de l'équipe sont présents."
+    },
+    {
+      "nl": "afwezig",
+      "fr": "absent",
+      "type": "adjectif",
+      "context_nl": "Twee collega's zijn vandaag afwezig.",
+      "context_fr": "Deux collègues sont absents aujourd'hui."
+    },
+    {
+      "nl": "productief",
+      "fr": "productif",
+      "type": "adjectif",
+      "context_nl": "Het was een productieve vergadering.",
+      "context_fr": "C'était une réunion productive."
+    },
+    {
+      "nl": "efficiënt",
+      "fr": "efficace",
+      "type": "adjectif",
+      "context_nl": "We zoeken een efficiënte manier van werken.",
+      "context_fr": "Nous cherchons une façon de travailler efficace."
+    },
+    {
+      "nl": "druk",
+      "fr": "chargé / occupé",
+      "type": "adjectif",
+      "context_nl": "Het is een drukke week met veel vergaderingen.",
+      "context_fr": "C'est une semaine chargée avec beaucoup de réunions."
+    },
+    {
+      "nl": "kort",
+      "fr": "court / bref",
+      "type": "adjectif",
+      "context_nl": "De vergadering was kort maar nuttig.",
+      "context_fr": "La réunion était courte mais utile."
+    },
+    {
+      "nl": "lang",
+      "fr": "long",
+      "type": "adjectif",
+      "context_nl": "De presentatie was te lang.",
+      "context_fr": "La présentation était trop longue."
+    },
+    {
+      "nl": "duidelijk",
+      "fr": "clair / explicite",
+      "type": "adjectif",
+      "context_nl": "Zijn uitleg was heel duidelijk.",
+      "context_fr": "Son explication était très claire."
+    },
+    {
+      "nl": "belangrijk",
+      "fr": "important",
+      "type": "adjectif",
+      "context_nl": "Dit is een belangrijk onderwerp.",
+      "context_fr": "C'est un sujet important."
+    },
+    {
+      "nl": "urgent",
+      "fr": "urgent",
+      "type": "adjectif",
+      "context_nl": "Dit probleem is urgent en moet vandaag worden opgelost.",
+      "context_fr": "Ce problème est urgent et doit être résolu aujourd'hui."
+    },
+    {
+      "nl": "formeel",
+      "fr": "formel",
+      "type": "adjectif",
+      "context_nl": "De vergadering met de directie is formeel.",
+      "context_fr": "La réunion avec la direction est formelle."
+    },
+    {
+      "nl": "informeel",
+      "fr": "informel",
+      "type": "adjectif",
+      "context_nl": "We hebben een informeel gesprek over het project.",
+      "context_fr": "Nous avons une conversation informelle sur le projet."
+    },
+    {
+      "nl": "beschikbaar",
+      "fr": "disponible",
+      "type": "adjectif",
+      "context_nl": "Ben je morgen beschikbaar voor een vergadering?",
+      "context_fr": "Êtes-vous disponible demain pour une réunion ?"
+    },
+    {
+      "nl": "bereid",
+      "fr": "prêt / disposé",
+      "type": "adjectif",
+      "context_nl": "Ik ben bereid het voorstel te bespreken.",
+      "context_fr": "Je suis disposé à discuter de la proposition."
+    },
+    {
+      "nl": "tevreden",
+      "fr": "satisfait / content",
+      "type": "adjectif",
+      "context_nl": "De directeur is tevreden met de resultaten.",
+      "context_fr": "Le directeur est satisfait des résultats."
+    },
+    {
+      "nl": "gezamenlijk",
+      "fr": "commun / collectif",
+      "type": "adjectif",
+      "context_nl": "Dit is een gezamenlijke beslissing.",
+      "context_fr": "C'est une décision collective."
+    },
+    {
+      "nl": "verplicht",
+      "fr": "obligatoire",
+      "type": "adjectif",
+      "context_nl": "De maandelijkse vergadering is verplicht.",
+      "context_fr": "La réunion mensuelle est obligatoire."
+    },
+    {
+      "nl": "mondeling",
+      "fr": "oral / de vive voix",
+      "type": "adjectif",
+      "context_nl": "De presentatie is mondeling, niet schriftelijk.",
+      "context_fr": "La présentation est orale, pas écrite."
+    },
+    {
+      "nl": "schriftelijk",
+      "fr": "écrit / par écrit",
+      "type": "adjectif",
+      "context_nl": "De beslissing moet schriftelijk worden bevestigd.",
+      "context_fr": "La décision doit être confirmée par écrit."
+    },
+    {
+      "nl": "aanstaande",
+      "fr": "prochain / à venir",
+      "type": "adjectif",
+      "context_nl": "De aanstaande vergadering is op vrijdag.",
+      "context_fr": "La prochaine réunion est vendredi."
+    },
+    {
+      "nl": "graag",
+      "fr": "volontiers / avec plaisir",
+      "type": "adverbe",
+      "context_nl": "Ik neem graag deel aan de vergadering.",
+      "context_fr": "Je participe volontiers à la réunion."
+    },
+    {
+      "nl": "snel",
+      "fr": "rapidement / vite",
+      "type": "adverbe",
+      "context_nl": "We moeten snel een beslissing nemen.",
+      "context_fr": "Nous devons prendre rapidement une décision."
+    },
+    {
+      "nl": "regelmatig",
+      "fr": "régulièrement",
+      "type": "adverbe",
+      "context_nl": "We vergaderen regelmatig om de voortgang te bespreken.",
+      "context_fr": "Nous nous réunissons régulièrement pour discuter des progrès."
+    },
+    {
+      "nl": "zeker",
+      "fr": "certainement / sûrement",
+      "type": "adverbe",
+      "context_nl": "Dat is zeker een goed idee.",
+      "context_fr": "C'est certainement une bonne idée."
+    },
+    {
+      "nl": "misschien",
+      "fr": "peut-être",
+      "type": "adverbe",
+      "context_nl": "Misschien kunnen we de vergadering verschuiven.",
+      "context_fr": "Peut-être pouvons-nous reporter la réunion."
+    },
+    {
+      "nl": "samen",
+      "fr": "ensemble",
+      "type": "adverbe",
+      "context_nl": "We lossen dit samen op.",
+      "context_fr": "Nous résolvons cela ensemble."
+    },
+    {
+      "nl": "later",
+      "fr": "plus tard",
+      "type": "adverbe",
+      "context_nl": "We bespreken dat punt later.",
+      "context_fr": "Nous abordons ce point plus tard."
+    },
+    {
+      "nl": "vroeg",
+      "fr": "tôt / de bonne heure",
+      "type": "adverbe",
+      "context_nl": "De vergadering begint vroeg, om acht uur.",
+      "context_fr": "La réunion commence tôt, à huit heures."
+    },
+    {
+      "nl": "laat",
+      "fr": "tard / en retard",
+      "type": "adverbe",
+      "context_nl": "Hij is altijd laat voor de vergadering.",
+      "context_fr": "Il est toujours en retard pour la réunion."
+    },
+    {
+      "nl": "altijd",
+      "fr": "toujours",
+      "type": "adverbe",
+      "context_nl": "Ze is altijd goed voorbereid.",
+      "context_fr": "Elle est toujours bien préparée."
+    },
+    {
+      "nl": "nooit",
+      "fr": "jamais",
+      "type": "adverbe",
+      "context_nl": "Hij is nooit aanwezig bij de teamvergadering.",
+      "context_fr": "Il n'est jamais présent à la réunion d'équipe."
+    },
+    {
+      "nl": "vaak",
+      "fr": "souvent",
+      "type": "adverbe",
+      "context_nl": "We vergaderen vaak online.",
+      "context_fr": "Nous nous réunissons souvent en ligne."
+    },
+    {
+      "nl": "soms",
+      "fr": "parfois",
+      "type": "adverbe",
+      "context_nl": "Soms duurt de vergadering te lang.",
+      "context_fr": "Parfois, la réunion dure trop longtemps."
+    },
+    {
+      "nl": "meteen",
+      "fr": "immédiatement / tout de suite",
+      "type": "adverbe",
+      "context_nl": "We beginnen meteen na de pauze.",
+      "context_fr": "Nous commençons immédiatement après la pause."
+    },
+    {
+      "nl": "even",
+      "fr": "un instant / juste",
+      "type": "adverbe",
+      "context_nl": "Wacht even, ik zoek het document op.",
+      "context_fr": "Attendez un instant, je cherche le document."
+    },
+    {
+      "nl": "ook",
+      "fr": "aussi / également",
+      "type": "adverbe",
+      "context_nl": "De financieel directeur is ook aanwezig.",
+      "context_fr": "Le directeur financier est également présent."
+    },
+    {
+      "nl": "echter",
+      "fr": "cependant / toutefois",
+      "type": "adverbe",
+      "context_nl": "Het plan is goed, maar er zijn echter enkele problemen.",
+      "context_fr": "Le plan est bon, mais il y a cependant quelques problèmes."
+    },
+    {
+      "nl": "tenslotte",
+      "fr": "finalement / enfin",
+      "type": "adverbe",
+      "context_nl": "Tenslotte bespreken we de volgende stappen.",
+      "context_fr": "Enfin, nous abordons les prochaines étapes."
+    },
+    {
+      "nl": "bovendien",
+      "fr": "de plus / en outre",
+      "type": "adverbe",
+      "context_nl": "Bovendien moeten we het budget controleren.",
+      "context_fr": "De plus, nous devons vérifier le budget."
+    },
+    {
+      "nl": "ondertussen",
+      "fr": "entre-temps / pendant ce temps",
+      "type": "adverbe",
+      "context_nl": "Ondertussen werkt het andere team aan het rapport.",
+      "context_fr": "Entre-temps, l'autre équipe travaille sur le rapport."
+    },
+    {
+      "nl": "de vergadering",
+      "fr": "la réunion",
+      "type": "mot",
+      "context_nl": "De vergadering duurt twee uur.",
+      "context_fr": "La réunion dure deux heures."
+    },
+    {
+      "nl": "de agenda",
+      "fr": "l'ordre du jour",
+      "type": "mot",
+      "context_nl": "De agenda heeft vijf punten.",
+      "context_fr": "L'ordre du jour comporte cinq points."
+    },
+    {
+      "nl": "de voorzitter",
+      "fr": "le président / la présidente",
+      "type": "mot",
+      "context_nl": "De voorzitter leidt de vergadering.",
+      "context_fr": "Le président anime la réunion."
+    },
+    {
+      "nl": "de notulen",
+      "fr": "le procès-verbal / le compte-rendu",
+      "type": "mot",
+      "context_nl": "De secretaris schrijft de notulen.",
+      "context_fr": "La secrétaire rédige le procès-verbal."
+    },
+    {
+      "nl": "het besluit",
+      "fr": "la décision",
+      "type": "mot",
+      "context_nl": "Het besluit wordt unaniem genomen.",
+      "context_fr": "La décision est prise à l'unanimité."
+    },
+    {
+      "nl": "het voorstel",
+      "fr": "la proposition",
+      "type": "mot",
+      "context_nl": "Ik doe een voorstel voor de volgende stap.",
+      "context_fr": "Je fais une proposition pour la prochaine étape."
+    },
+    {
+      "nl": "de presentatie",
+      "fr": "la présentation",
+      "type": "mot",
+      "context_nl": "De presentatie duurt dertig minuten.",
+      "context_fr": "La présentation dure trente minutes."
+    },
+    {
+      "nl": "het actieplan",
+      "fr": "le plan d'action",
+      "type": "mot",
+      "context_nl": "We maken een actieplan voor het volgende kwartaal.",
+      "context_fr": "Nous établissons un plan d'action pour le prochain trimestre."
+    },
+    {
+      "nl": "de deadline",
+      "fr": "la date limite / l'échéance",
+      "type": "mot",
+      "context_nl": "De deadline voor dit project is volgende maand.",
+      "context_fr": "La date limite pour ce projet est le mois prochain."
+    },
+    {
+      "nl": "het verslag",
+      "fr": "le rapport / le compte-rendu",
+      "type": "mot",
+      "context_nl": "Het verslag wordt naar alle deelnemers gestuurd.",
+      "context_fr": "Le rapport est envoyé à tous les participants."
+    },
+    {
+      "nl": "de werkgroep",
+      "fr": "le groupe de travail",
+      "type": "mot",
+      "context_nl": "De werkgroep komt volgende week samen.",
+      "context_fr": "Le groupe de travail se réunit la semaine prochaine."
+    },
+    {
+      "nl": "het onderwerp",
+      "fr": "le sujet / le thème",
+      "type": "mot",
+      "context_nl": "Wat is het hoofdonderwerp van de vergadering?",
+      "context_fr": "Quel est le sujet principal de la réunion ?"
+    },
+    {
+      "nl": "de samenvatting",
+      "fr": "le résumé",
+      "type": "mot",
+      "context_nl": "Aan het einde geeft hij een samenvatting.",
+      "context_fr": "À la fin, il donne un résumé."
+    },
+    {
+      "nl": "de deelnemer",
+      "fr": "le participant",
+      "type": "mot",
+      "context_nl": "Er zijn tien deelnemers aanwezig.",
+      "context_fr": "Il y a dix participants présents."
+    },
+    {
+      "nl": "het kwartaal",
+      "fr": "le trimestre",
+      "type": "mot",
+      "context_nl": "We evalueren de resultaten elk kwartaal.",
+      "context_fr": "Nous évaluons les résultats chaque trimestre."
+    },
+    {
+      "nl": "de opvolging",
+      "fr": "le suivi",
+      "type": "mot",
+      "context_nl": "De opvolging van de actiepunten is essentieel.",
+      "context_fr": "Le suivi des points d'action est essentiel."
+    },
+    {
+      "nl": "het overleg",
+      "fr": "la concertation / la discussion",
+      "type": "mot",
+      "context_nl": "Na lang overleg komen we tot een akkoord.",
+      "context_fr": "Après de longues discussions, nous parvenons à un accord."
+    },
+    {
+      "nl": "de uitnodiging",
+      "fr": "l'invitation",
+      "type": "mot",
+      "context_nl": "Je ontvangt een uitnodiging per e-mail.",
+      "context_fr": "Tu reçois une invitation par e-mail."
+    },
+    {
+      "nl": "het actiepunt",
+      "fr": "le point d'action",
+      "type": "mot",
+      "context_nl": "Er zijn drie actiepunten na de vergadering.",
+      "context_fr": "Il y a trois points d'action après la réunion."
+    },
+    {
+      "nl": "de pauze",
+      "fr": "la pause",
+      "type": "mot",
+      "context_nl": "We nemen een pauze van tien minuten.",
+      "context_fr": "Nous faisons une pause de dix minutes."
+    }
+  ]
+}

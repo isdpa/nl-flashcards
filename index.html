@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Flashcards Néerlandais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Flashcards Néerlandais</h1>
+      <div class="selectors">
+        <select id="deck-select" class="sel"></select>
+        <select id="type-select" class="sel">
+          <option value="all">Tous les types</option>
+          <option value="verbe">Verbes</option>
+          <option value="adjectif">Adjectifs</option>
+          <option value="adverbe">Adverbes</option>
+          <option value="mot">Mots communs</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <div class="score-bar">
+        <div class="score-text">
+          <span id="score-correct">0</span> correct
+          &nbsp;·&nbsp;
+          <span id="score-remaining">0</span> restant
+        </div>
+        <div class="progress-track">
+          <div id="progress-fill" class="progress-fill" style="width:0%"></div>
+        </div>
+      </div>
+
+      <div class="card-area">
+        <div id="card" class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <span id="badge-front" class="badge"></span>
+              <p id="word-nl" class="word"></p>
+              <p class="hint">appuyez pour révéler</p>
+            </div>
+            <div class="card-back">
+              <span id="badge-back" class="badge"></span>
+              <p id="word-nl-back" class="word-nl-small"></p>
+              <div class="separator"></div>
+              <p id="word-fr" class="word-fr"></p>
+              <div id="context-box" class="context-box hidden">
+                <p id="context-nl" class="context-nl"></p>
+                <p id="context-fr" class="context-fr"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="completion" class="completion hidden">
+          <p class="completion-icon">&#10003;</p>
+          <p class="completion-title">Bravo !</p>
+          <p class="completion-sub">Tous les mots sont appris.</p>
+          <button id="restart-btn" class="restart-btn">Recommencer</button>
+        </div>
+      </div>
+
+      <div class="controls">
+        <label class="checkbox-label">
+          <input type="checkbox" id="show-context">
+          <span>Afficher la phrase de contexte</span>
+        </label>
+      </div>
+
+      <div id="answer-btns" class="answer-btns hidden">
+        <button id="incorrect-btn" class="btn-answer btn-incorrect">&#10007; Incorrect</button>
+        <button id="correct-btn"   class="btn-answer btn-correct"  >&#10003; Correct</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
